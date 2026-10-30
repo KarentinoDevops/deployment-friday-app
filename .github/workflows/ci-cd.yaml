@@ -16,7 +16,7 @@ jobs:
     - name: Use Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: lts-alpine3.24 
+        node-version: 26.13.0 
         cache: 'npm'
 
     - run: npm ci
